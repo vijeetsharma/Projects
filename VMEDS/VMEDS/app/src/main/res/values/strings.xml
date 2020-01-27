@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">VMEDS</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_women_category">WomenCategoryActivity</string>
+    <string name="title_activity_contact_list">ContactList</string>
+    <string name="Rs">\u20B9</string>
+    <string name="title_activity_product_detail">ProductDetail</string>
+    <string name="facebook_app_id">1785003225154859</string>
+    <string name="title_activity_user_profile">UserProfileActivity</string>
+</resources>

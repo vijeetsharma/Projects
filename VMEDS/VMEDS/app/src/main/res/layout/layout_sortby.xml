@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    android:layout_margin="20dp"
+    android:background="@drawable/layout_rounded">
+
+    <RadioGroup
+        android:id="@+id/rgSortby"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_gravity="center"
+        android:layout_margin="20dp">
+
+        <RadioButton
+            android:id="@+id/rbPriceltoh"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/dblue"
+            android:buttonTintMode="src_in"
+            android:text="PRICE LOW TO HIGH"
+            android:textColor="@color/dblue" />
+
+        <RadioButton
+            android:id="@+id/rbPricehtol"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/dblue"
+            android:buttonTintMode="src_in"
+            android:text="PRICE HIGH TO LOW"
+            android:textColor="@color/dblue" />
+
+        <RadioButton
+            android:id="@+id/rbOldest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/dblue"
+            android:buttonTintMode="src_in"
+            android:text="OLDEST"
+            android:textColor="@color/dblue"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/rbNewest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/dblue"
+            android:buttonTintMode="src_in"
+            android:text="NEWEST"
+            android:textColor="@color/dblue"
+            android:visibility="gone" />
+
+        <RadioButton
+            android:id="@+id/rbMostViewed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="@color/dblue"
+            android:buttonTintMode="src_in"
+            android:text="MOST VIEWED"
+            android:textColor="@color/dblue"
+            android:visibility="gone" />
+    </RadioGroup>
+
+
+</RelativeLayout>

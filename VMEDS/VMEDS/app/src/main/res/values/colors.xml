@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<color name="black">#000000</color>-->
+    <!--<color name="white">#FFF</color>-->
+    <!--<color name="dblue">#00c5ff</color>-->
+    <!--<color name="gray">#DCDCDC</color>-->
+    <!--<color name="colorPrimary">#00c5ff</color>-->
+    <!--<color name="colorPrimaryDark">#00c5ff</color>-->
+    <!--<color name="colorAccent">#95C12B</color>-->
+    <!--<color name="button_pressed">#00c5ff</color>-->
+    <!--<color name="button_focused">#ff8a00</color>-->
+    <!--<color name="statusBarColor">#01010d</color>-->
+    <!--<color name="foreground_material_light">#00c5ff</color>-->
+    <!--<color name="lightgray">#e6e6e6</color>-->
+    <!--<color name="greencolor">#00c5ff</color>-->
+    <!--<color name="lightgreen">#8dc63f</color>-->
+
+
+
+    <color name="black">#000000</color>
+    <color name="white">#FFF</color>
+    <color name="dblue">#00897b</color>
+    <color name="gray">#DCDCDC</color>
+    <color name="colorPrimary">#00897b</color>
+    <color name="colorPrimaryDark">#00897b</color>
+    <color name="colorAccent">#95C12B</color>
+    <color name="button_pressed">#00897b</color>
+    <color name="button_focused">#ff8a00</color>
+    <color name="statusBarColor">#01010d</color>
+    <color name="foreground_material_light">#00897b</color>
+    <color name="lightgray">#e6e6e6</color>
+    <color name="greencolor">#00897b</color>
+    <color name="lightgreen">#8dc63f</color>
+</resources>

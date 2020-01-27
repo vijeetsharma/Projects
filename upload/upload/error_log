@@ -1,0 +1,76 @@
+[19-Feb-2018 12:19:03 UTC] PHP Warning:  include(web\connection.php): failed to open stream: No such file or directory in /home/nileshlp/public_html/upload/index.php on line 62
+[19-Feb-2018 12:19:03 UTC] PHP Warning:  include(): Failed opening 'web\connection.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/nileshlp/public_html/upload/index.php on line 62
+[19-Feb-2018 12:19:03 UTC] PHP Notice:  Undefined variable: cn in /home/nileshlp/public_html/upload/index.php on line 64
+[19-Feb-2018 12:19:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/nileshlp/public_html/upload/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/nileshlp/public_html/upload/index.php on line 64
+[19-Feb-2018 12:20:06 UTC] PHP Warning:  include(web\connection.php): failed to open stream: No such file or directory in /home/nileshlp/public_html/upload/index.php on line 62
+[19-Feb-2018 12:20:06 UTC] PHP Warning:  include(): Failed opening 'web\connection.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/nileshlp/public_html/upload/index.php on line 62
+[19-Feb-2018 12:20:06 UTC] PHP Notice:  Undefined variable: cn in /home/nileshlp/public_html/upload/index.php on line 64
+[19-Feb-2018 12:20:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/nileshlp/public_html/upload/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/nileshlp/public_html/upload/index.php on line 64
+[19-Feb-2018 12:43:04 UTC] PHP Warning:  include(web\connection.php): failed to open stream: No such file or directory in /home/nileshlp/public_html/upload/index.php on line 62
+[19-Feb-2018 12:43:04 UTC] PHP Warning:  include(): Failed opening 'web\connection.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/nileshlp/public_html/upload/index.php on line 62
+[19-Feb-2018 12:43:04 UTC] PHP Notice:  Undefined variable: cn in /home/nileshlp/public_html/upload/index.php on line 64
+[19-Feb-2018 12:43:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/nileshlp/public_html/upload/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/nileshlp/public_html/upload/index.php on line 64
+[19-Feb-2018 12:47:25 UTC] PHP Warning:  include(web\connection.php): failed to open stream: No such file or directory in /home/nileshlp/public_html/upload/contact.php on line 2
+[19-Feb-2018 12:47:25 UTC] PHP Warning:  include(): Failed opening 'web\connection.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/nileshlp/public_html/upload/contact.php on line 2
+[19-Feb-2018 13:06:43 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/nileshlp/public_html/upload/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/nileshlp/public_html/upload/index.php on line 2
+[19-Feb-2018 13:06:56 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/nileshlp/public_html/upload/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/nileshlp/public_html/upload/index.php on line 2
+[19-Feb-2018 13:07:06 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/nileshlp/public_html/upload/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/nileshlp/public_html/upload/index.php on line 2
+[19-Feb-2018 13:07:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/nileshlp/public_html/upload/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/nileshlp/public_html/upload/index.php on line 2
+[19-Feb-2018 13:07:11 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/nileshlp/public_html/upload/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/nileshlp/public_html/upload/index.php on line 2
+[19-Feb-2018 13:07:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/nileshlp/public_html/upload/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/nileshlp/public_html/upload/index.php on line 2
+[19-Feb-2018 13:07:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/nileshlp/public_html/upload/index.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/nileshlp/public_html/upload/index.php on line 2
+[19-Feb-2018 13:08:04 UTC] PHP Warning:  include(web\connection.php): failed to open stream: No such file or directory in /home/nileshlp/public_html/upload/index.php on line 62
+[19-Feb-2018 13:08:04 UTC] PHP Warning:  include(): Failed opening 'web\connection.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/nileshlp/public_html/upload/index.php on line 62
+[19-Feb-2018 13:08:04 UTC] PHP Notice:  Undefined variable: cn in /home/nileshlp/public_html/upload/index.php on line 64
+[19-Feb-2018 13:08:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/nileshlp/public_html/upload/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/nileshlp/public_html/upload/index.php on line 64
+[19-Feb-2018 13:08:07 UTC] PHP Warning:  include(web\connection.php): failed to open stream: No such file or directory in /home/nileshlp/public_html/upload/index.php on line 62
+[19-Feb-2018 13:08:07 UTC] PHP Warning:  include(): Failed opening 'web\connection.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/nileshlp/public_html/upload/index.php on line 62
+[19-Feb-2018 13:08:07 UTC] PHP Notice:  Undefined variable: cn in /home/nileshlp/public_html/upload/index.php on line 64
+[19-Feb-2018 13:08:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/nileshlp/public_html/upload/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/nileshlp/public_html/upload/index.php on line 64
+[19-Feb-2018 13:08:13 UTC] PHP Warning:  include(web\connection.php): failed to open stream: No such file or directory in /home/nileshlp/public_html/upload/index.php on line 62
+[19-Feb-2018 13:08:13 UTC] PHP Warning:  include(): Failed opening 'web\connection.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/nileshlp/public_html/upload/index.php on line 62
+[19-Feb-2018 13:08:13 UTC] PHP Notice:  Undefined variable: cn in /home/nileshlp/public_html/upload/index.php on line 64
+[19-Feb-2018 13:08:13 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/nileshlp/public_html/upload/index.php:64
+Stack trace:
+#0 {main}
+  thrown in /home/nileshlp/public_html/upload/index.php on line 64
+[19-Feb-2018 13:27:30 UTC] PHP Warning:  include(web\connection.php): failed to open stream: No such file or directory in /home/nileshlp/public_html/upload/contact.php on line 2
+[19-Feb-2018 13:27:30 UTC] PHP Warning:  include(): Failed opening 'web\connection.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/nileshlp/public_html/upload/contact.php on line 2
+[19-Feb-2018 16:48:14 UTC] PHP Warning:  include(web\connection.php): failed to open stream: No such file or directory in /home/nileshlp/public_html/upload/contact.php on line 2
+[19-Feb-2018 16:48:14 UTC] PHP Warning:  include(): Failed opening 'web\connection.php' for inclusion (include_path='.:/opt/alt/php71/usr/share/pear') in /home/nileshlp/public_html/upload/contact.php on line 2

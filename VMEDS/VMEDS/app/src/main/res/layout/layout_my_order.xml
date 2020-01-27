@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingBottom="10dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="10dp">
+
+
+    <!-- ListRow Left sied Thumbnail image -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.8"
+        android:orientation="horizontal">
+
+        <RelativeLayout
+            android:id="@+id/layoutProductImage"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_marginRight="7dip"
+            android:layout_weight="0.2"
+            android:padding="2dip">
+
+            <com.wang.avi.AVLoadingIndicatorView
+                android:id="@+id/loadingAvi"
+                style="@style/AVLoadingIndicatorView"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:visibility="visible"
+                app:indicatorColor="@color/colorPrimary"
+                app:indicatorName="LineSpinFadeLoaderIndicator" />
+
+
+            <ImageView
+                android:id="@+id/product_image"
+                android:layout_width="150dp"
+                android:layout_height="80dp"
+                android:layout_alignParentTop="true"
+                android:scaleType="fitXY"
+                 />
+        </RelativeLayout>
+
+        <!-- Title Of Song -->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.8"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/product_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Product Title asfdvfsASDFGHJDSSDFGHSADFGHJSDFGHJSDFGHJKSDFGHJKSDFGHJKSSDFGHJKDFGHJK"
+                android:textColor="#040404"
+                android:textSize="15dip"
+                android:typeface="sans" />
+
+            <TextView
+                android:id="@+id/product_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="Rs. 200"
+                android:textColor="#1d1d1d"
+                android:textSize="12dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgDelete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_margin="10dp"
+            android:src="@drawable/delete" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.8"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/quantity_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/cart_plus_minus_layout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="0.3"
+                android:orientation="horizontal">
+
+
+                <ImageView
+                    android:id="@+id/cart_minus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/minus"
+                    android:tint="@color/dblue"
+                    android:tintMode="src_in" />
+
+                <TextView
+                    android:id="@+id/product_quantity"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="15dip"
+                    android:text=""
+                    android:textSize="12dip"
+                    android:textStyle="bold" />
+
+                <ImageView
+                    android:id="@+id/cart_plus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/plus"
+                    android:tint="@color/dblue"
+                    android:tintMode="src_in" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/product_total_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="10dp"
+                android:text="Rs. 200"
+                android:textColor="#1d1d1d"
+                android:textSize="12dip"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/txtMoveToWishList"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="30dp"
+            android:background="@color/dblue"
+            android:padding="10dp"
+            android:text="Move to WishList"
+            android:textColor="@color/white" />
+    </LinearLayout>
+</LinearLayout>

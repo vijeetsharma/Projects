@@ -1,0 +1,170 @@
+/*--------------------------------------------------------------
+## Primary Cyan Color 
+--------------------------------------------------------------*/
+.mean-container .mean-nav ul li a,
+.mean-container .mean-nav ul li a:hover {
+	background: #0a9f82;
+}
+
+a,
+a:visited,
+a:hover,
+a:focus,
+a:active,
+.entry-meta > span::before,
+.entry-footer > span::before,
+.single-post-meta > span::before,
+.main-navigation ul li.menu-item-has-children ul.sub-menu li a:hover,
+a.btn-white:visited,
+.main-navigation ul li.current-menu-item a,
+.main-navigation ul li a:hover,
+a.button.btn-white,
+.site-title a i,
+.home-two  a.btn-white,
+.home-three a.btn-white,
+.slick-prev:before,
+.slick-next:before,
+.service-item .service-icon span,
+.product .price,
+.add_to_cart_button:hover,
+a.product_quick_view:hover i,
+.add_to_wishlist:hover i,
+.home-three ul.products li.product .add_to_cart_button:hover:after,
+.our-team-item .team-text-wrap span,
+.home-three .facts-counter-section .counter-item .counter-icon span,
+.testimonial-slider .testimonial-item .person-detail p,
+.testimonial-slider-two .testimonial-item .person-detail p,
+.testimonial-slider-three .testimonial-item .person-detail p,
+.advanced-cta-section.no-image-bg a.btn-black:hover,
+.post .entry-title:hover ,
+.post .entry-title a:hover,
+.woocommerce-loop-product__title a:hover,
+.page-title span,
+.breadcrumb ul li.active a,
+.pagination .nav-links .page-numbers.current,
+.pagination .nav-links .page-numbers:hover,
+.sidebar form button[type="submit"] i,
+.sidebar .widget ul li a:hover,
+.post-navigation .nav-links .nav-previous:hover a, 
+.post-navigation .nav-links .nav-next:hover a,
+.post-navigation .nav-links .nav-previous:hover:before, 
+.post-navigation .nav-links .nav-next:hover:after,
+.key-info-item:hover .info-icon span,
+.product-sorting .view-by a i,
+.product-single .product .summary.entry-summary form button:hover,
+.product-single .product .summary.entry-summary form button[type="submit"]:hover,
+.product-listing.list-view  .business-edge-woocommerce ul.products li.product .product-text-wrap .button-holder a:hover,
+.product-listing.list-view .business-edge-woocommerce ul.products li.product .add_to_wishlist:hover i,
+.product-listing.list-view .business-edge-woocommerce ul.products li.product .product_quick_view:hover i,
+.product-single .product .summary.entry-summary form button:hover:after,
+.woocommerce nav.woocommerce-pagination ul li a:focus, 
+.woocommerce nav.woocommerce-pagination ul li a:hover, 
+.woocommerce nav.woocommerce-pagination ul li span.current,
+nav.woocommerce-pagination ul li a:focus, 
+nav.woocommerce-pagination ul li a:hover, 
+nav.woocommerce-pagination ul li span.current,
+.comment-form-rating a:before,
+.site-footer .site-info a,
+.posted-date,
+.author,
+.author a,
+.posted-date:before,
+.author:before,
+a.read-more:hover,
+.mean-container a.meanmenu-reveal {
+    color:#1ABC9C;
+}
+
+a.btn-black:hover,
+a.btn-white:hover,
+#filter-list li.active,
+#filter-list li:hover,
+.pagination .nav-links .page-numbers.current,
+.pagination .nav-links .page-numbers:hover,
+.key-info-item:hover .info-icon{
+	border-color:#1ABC9C; 
+}
+
+button,
+.comment-reply-link,
+ a.button, input[type="button"],
+ input[type="reset"],
+ input[type="submit"],
+.top-header,
+.section-title h2:after,
+.site-title a i,
+.service-wrapper-layout-two .service-item .service-inner:hover .service-icon,
+.business-cta-section,
+.facts-counter-section,
+.advanced-cta-section.no-image-bg,
+.pagination .nav-links .page-numbers,
+.comment-navigation .nav-previous,
+.posts-navigation .nav-previous,
+.post-navigation .nav-previous,
+.comment-navigation .nav-next,
+.posts-navigation .nav-next,
+.post-navigation .nav-next,
+#infinite-handle span,
+.comment-navigation .nav-previous:hover,
+.posts-navigation .nav-previous:hover,
+.post-navigation .nav-previous:hover,
+.comment-navigation .nav-next:hover,
+.posts-navigation .nav-next:hover,
+.post-navigation .nav-next:hover,
+ #infinite-handle span:hover,
+a.btn-black:hover,
+a.btn-white:hover,
+.slick-dots li.slick-active button,
+.home-two .button,
+.home-three .button,
+#filter-list li.active,
+#filter-list li:hover,
+.view-btn,
+.woocommerce nav.woocommerce-pagination ul li .page-numbers,
+nav.woocommerce-pagination ul li .page-numbers,
+.sidebar .widget .widget-title:after,
+#tabs .tabs li.ui-state-active,
+.portfolio-item .portfolio-inner:before,
+.mean-container a.meanmenu-reveal span {
+    background: #1ABC9C;
+}
+
+#home-page-widget-area .widget-title span::before,
+#home-page-widget-area .widget-title span::after,
+.meter > span > .ui-progressbar-value,
+.error-404.not-found  form.search-form input[type="submit"],
+.error-404.not-found  form.search-form button[type="submit"],
+.error-404.not-found  form.search-form input[type="submit"]:hover,
+.error-404.not-found  form.search-form button[type="submit"]:hover,
+.gotop {
+	background-color: #1ABC9C;
+}
+
+button,
+.comment-reply-link,
+ a.button, input[type="button"],
+ input[type="reset"],
+ input[type="submit"],
+ .home-two .button,
+.home-three .button,
+.pagination .nav-links .page-numbers,
+.woocommerce nav.woocommerce-pagination ul li .page-numbers,
+nav.woocommerce-pagination ul li .page-numbers {
+	border:1px solid #1ABC9C;
+}
+
+.slick-dots li button,
+.slick-prev,
+.slick-next{
+	border:2px solid #1ABC9C;
+}
+
+@media screen and (max-width: 850px){
+
+	.mean-container .mean-nav ul li a.mean-expand.mean-clicked,
+    .mean-container .mean-nav ul li a.mean-expand.mean-clicked:hover,
+    .mean-container .mean-nav ul li a.mean-expand:hover {
+        background: #1ABC9C;
+    }
+
+}

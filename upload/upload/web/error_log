@@ -1,0 +1,125 @@
+[20-Jan-2018 13:54:46 Asia/Kolkata] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/neeasoft/public_html/charlievent/web/connection.php on line 2
+[20-Jan-2018 13:55:25 Asia/Kolkata] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/neeasoft/public_html/charlievent/web/connection.php on line 2
+[20-Jan-2018 13:55:25 Asia/Kolkata] PHP Warning:  mysqli::query(): Couldn't fetch mysqli in /home/neeasoft/public_html/charlievent/web/viewvideos.php on line 41
+[20-Jan-2018 13:55:25 Asia/Kolkata] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, null given in /home/neeasoft/public_html/charlievent/web/viewvideos.php on line 43
+[20-Jan-2018 13:56:45 Asia/Kolkata] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/neeasoft/public_html/charlievent/web/connection.php on line 2
+[20-Jan-2018 13:58:17 Asia/Kolkata] PHP Warning:  mysqli::mysqli(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/neeasoft/public_html/charlievent/web/connection.php on line 2
+[20-Jan-2018 14:01:23 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/neeasoft/public_html/charlievent/web/delvideo.php:4) in /home/neeasoft/public_html/charlievent/web/delvideo.php on line 9
+[20-Jan-2018 15:26:06 Asia/Kolkata] PHP Warning:  move_uploaded_file(C:/wamp/www/Admin_Site_event_planning/web/images/gallery_1.jpg): failed to open stream: No such file or directory in /home/neeasoft/public_html/charlievent/web/updatecategory.php on line 15
+[20-Jan-2018 15:26:06 Asia/Kolkata] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpBShpJg' to 'C:/wamp/www/Admin_Site_event_planning/web/images/gallery_1.jpg' in /home/neeasoft/public_html/charlievent/web/updatecategory.php on line 15
+[20-Jan-2018 15:26:06 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/neeasoft/public_html/charlievent/web/updatecategory.php:22) in /home/neeasoft/public_html/charlievent/web/updatecategory.php on line 25
+[20-Jan-2018 15:28:46 Asia/Kolkata] PHP Warning:  move_uploaded_file(C:/wamp/www/Admin_Site_event_planning/web/images/doli_1.jpg): failed to open stream: No such file or directory in /home/neeasoft/public_html/charlievent/web/updatecategory.php on line 15
+[20-Jan-2018 15:28:46 Asia/Kolkata] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpaliypo' to 'C:/wamp/www/Admin_Site_event_planning/web/images/doli_1.jpg' in /home/neeasoft/public_html/charlievent/web/updatecategory.php on line 15
+[20-Jan-2018 15:28:46 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/neeasoft/public_html/charlievent/web/updatecategory.php:22) in /home/neeasoft/public_html/charlievent/web/updatecategory.php on line 25
+[20-Jan-2018 15:31:42 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/neeasoft/public_html/charlievent/web/delcategory.php:4) in /home/neeasoft/public_html/charlievent/web/delcategory.php on line 9
+[22-Jan-2018 13:09:00 Asia/Kolkata] PHP Warning:  move_uploaded_file(C:/wamp/www/Admin_Site_event_planning/web/images/doli_1.jpg): failed to open stream: No such file or directory in /home/neeasoft/public_html/charlievent/web/updatecategory.php on line 15
+[22-Jan-2018 13:09:01 Asia/Kolkata] PHP Warning:  move_uploaded_file(): Unable to move '/tmp/phpYqCiB5' to 'C:/wamp/www/Admin_Site_event_planning/web/images/doli_1.jpg' in /home/neeasoft/public_html/charlievent/web/updatecategory.php on line 15
+[22-Jan-2018 13:09:01 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/neeasoft/public_html/charlievent/web/updatecategory.php:22) in /home/neeasoft/public_html/charlievent/web/updatecategory.php on line 25
+[22-Jan-2018 15:32:26 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/neeasoft/public_html/charlievent/web/updatevideo.php:8) in /home/neeasoft/public_html/charlievent/web/updatevideo.php on line 13
+[22-Jan-2018 15:35:59 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/neeasoft/public_html/charlievent/web/updateslider.php:22) in /home/neeasoft/public_html/charlievent/web/updateslider.php on line 25
+[22-Jan-2018 15:37:05 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/neeasoft/public_html/charlievent/web/updateslider.php:22) in /home/neeasoft/public_html/charlievent/web/updateslider.php on line 25
+[22-Jan-2018 15:38:19 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/neeasoft/public_html/charlievent/web/updateservices.php:23) in /home/neeasoft/public_html/charlievent/web/updateservices.php on line 26
+[22-Jan-2018 15:39:53 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/neeasoft/public_html/charlievent/web/updatecategory.php:22) in /home/neeasoft/public_html/charlievent/web/updatecategory.php on line 25
+[22-Jan-2018 15:40:09 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/neeasoft/public_html/charlievent/web/updatecategory.php:22) in /home/neeasoft/public_html/charlievent/web/updatecategory.php on line 25
+[22-Jan-2018 15:54:10 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/neeasoft/public_html/charlievent/web/updateslider.php:22) in /home/neeasoft/public_html/charlievent/web/updateslider.php on line 25
+[22-Jan-2018 15:56:06 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/neeasoft/public_html/charlievent/web/updateservices.php:23) in /home/neeasoft/public_html/charlievent/web/updateservices.php on line 26
+[22-Jan-2018 16:06:21 Asia/Kolkata] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/neeasoft/public_html/charlievent/web/updatecategory.php:22) in /home/neeasoft/public_html/charlievent/web/updatecategory.php on line 25
+[29-Jan-2018 16:39:13 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/neeasoft/public_html/charlievent/web/dashboard.php on line 23
+[29-Jan-2018 16:39:15 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/neeasoft/public_html/charlievent/web/dashboard.php on line 23
+[29-Jan-2018 16:39:38 Asia/Kolkata] PHP Parse error:  syntax error, unexpected '->' (T_OBJECT_OPERATOR) in /home/neeasoft/public_html/charlievent/web/dashboard.php on line 23
+[01-Feb-2018 21:55:53 Asia/Kolkata] PHP Warning:  POST Content-Length of 10184310 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[01-Feb-2018 21:56:15 Asia/Kolkata] PHP Warning:  POST Content-Length of 10184310 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[01-Feb-2018 21:56:47 Asia/Kolkata] PHP Warning:  POST Content-Length of 18588210 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[01-Feb-2018 21:57:29 Asia/Kolkata] PHP Warning:  POST Content-Length of 10184310 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[01-Feb-2018 21:57:42 Asia/Kolkata] PHP Warning:  POST Content-Length of 10184310 bytes exceeds the limit of 8388608 bytes in Unknown on line 0
+[19-Feb-2018 12:54:16 UTC] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'neelgupta'@'localhost' to database 'test
+_calci' in /home/nileshlp/public_html/upload/web/connection.php on line 2
+[19-Feb-2018 12:54:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/nileshlp/public_html/upload/web/connection.php:5
+Stack trace:
+#0 /home/nileshlp/public_html/upload/web/index.php(2): include()
+#1 {main}
+  thrown in /home/nileshlp/public_html/upload/web/connection.php on line 5
+[06-Mar-2018 08:51:07 UTC] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'neelgupta'@'localhost' to database 'test
+_calci' in /home/nileshlp/public_html/upload/web/connection.php on line 2
+[06-Mar-2018 08:51:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/nileshlp/public_html/upload/web/connection.php:5
+Stack trace:
+#0 /home/nileshlp/public_html/upload/web/index.php(2): include()
+#1 {main}
+  thrown in /home/nileshlp/public_html/upload/web/connection.php on line 5
+[06-Mar-2018 08:51:29 UTC] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'neelgupta'@'localhost' to database 'test
+_calci' in /home/nileshlp/public_html/upload/web/connection.php on line 2
+[06-Mar-2018 08:51:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/nileshlp/public_html/upload/web/connection.php:5
+Stack trace:
+#0 /home/nileshlp/public_html/upload/web/login.php(2): include()
+#1 {main}
+  thrown in /home/nileshlp/public_html/upload/web/connection.php on line 5
+[06-Mar-2018 08:51:32 UTC] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'neelgupta'@'localhost' to database 'test
+_calci' in /home/nileshlp/public_html/upload/web/connection.php on line 2
+[06-Mar-2018 08:51:32 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/nileshlp/public_html/upload/web/connection.php:5
+Stack trace:
+#0 /home/nileshlp/public_html/upload/web/login.php(2): include()
+#1 {main}
+  thrown in /home/nileshlp/public_html/upload/web/connection.php on line 5
+[06-Mar-2018 08:54:24 UTC] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'neelgupta'@'localhost' to database 'test
+_calci' in /home/nileshlp/public_html/upload/web/connection.php on line 2
+[06-Mar-2018 08:54:24 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/nileshlp/public_html/upload/web/connection.php:5
+Stack trace:
+#0 /home/nileshlp/public_html/upload/web/index.php(2): include()
+#1 {main}
+  thrown in /home/nileshlp/public_html/upload/web/connection.php on line 5
+[06-Mar-2018 08:54:26 UTC] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'neelgupta'@'localhost' to database 'test
+_calci' in /home/nileshlp/public_html/upload/web/connection.php on line 2
+[06-Mar-2018 08:54:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/nileshlp/public_html/upload/web/connection.php:5
+Stack trace:
+#0 /home/nileshlp/public_html/upload/web/index.php(2): include()
+#1 {main}
+  thrown in /home/nileshlp/public_html/upload/web/connection.php on line 5
+[06-Mar-2018 08:54:59 UTC] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'neelgupta'@'localhost' to database 'test
+_calci' in /home/nileshlp/public_html/upload/web/connection.php on line 2
+[06-Mar-2018 08:54:59 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/nileshlp/public_html/upload/web/connection.php:5
+Stack trace:
+#0 /home/nileshlp/public_html/upload/web/index.php(2): include()
+#1 {main}
+  thrown in /home/nileshlp/public_html/upload/web/connection.php on line 5
+[06-Mar-2018 08:55:02 UTC] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'neelgupta'@'localhost' to database 'test
+_calci' in /home/nileshlp/public_html/upload/web/connection.php on line 2
+[06-Mar-2018 08:55:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/nileshlp/public_html/upload/web/connection.php:5
+Stack trace:
+#0 /home/nileshlp/public_html/upload/web/index.php(2): include()
+#1 {main}
+  thrown in /home/nileshlp/public_html/upload/web/connection.php on line 5
+[06-Mar-2018 08:55:09 UTC] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'neelgupta'@'localhost' to database 'test
+_calci' in /home/nileshlp/public_html/upload/web/connection.php on line 2
+[06-Mar-2018 08:55:09 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/nileshlp/public_html/upload/web/connection.php:5
+Stack trace:
+#0 /home/nileshlp/public_html/upload/web/login.php(2): include()
+#1 {main}
+  thrown in /home/nileshlp/public_html/upload/web/connection.php on line 5
+[06-Mar-2018 08:55:44 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/nileshlp/public_html/upload/web/connection.php:4
+Stack trace:
+#0 /home/nileshlp/public_html/upload/web/login.php(2): include()
+#1 {main}
+  thrown in /home/nileshlp/public_html/upload/web/connection.php on line 4
+[06-Mar-2018 08:55:46 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/nileshlp/public_html/upload/web/connection.php:4
+Stack trace:
+#0 /home/nileshlp/public_html/upload/web/login.php(2): include()
+#1 {main}
+  thrown in /home/nileshlp/public_html/upload/web/connection.php on line 4
+[06-Mar-2018 08:56:18 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/nileshlp/public_html/upload/web/connection.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/nileshlp/public_html/upload/web/connection.php on line 4
+[06-Mar-2018 08:56:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/nileshlp/public_html/upload/web/connection.php:4
+Stack trace:
+#0 {main}
+  thrown in /home/nileshlp/public_html/upload/web/connection.php on line 4
+[06-Mar-2018 08:57:36 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/nileshlp/public_html/upload/web/connection.php:4
+Stack trace:
+#0 /home/nileshlp/public_html/upload/web/index.php(2): include()
+#1 {main}
+  thrown in /home/nileshlp/public_html/upload/web/connection.php on line 4
+[06-Mar-2018 08:57:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home/nileshlp/public_html/upload/web/connection.php:4
+Stack trace:
+#0 /home/nileshlp/public_html/upload/web/index.php(2): include()
+#1 {main}
+  thrown in /home/nileshlp/public_html/upload/web/connection.php on line 4

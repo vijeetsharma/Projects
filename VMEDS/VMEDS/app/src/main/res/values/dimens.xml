@@ -1,0 +1,10 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">20dp</dimen>
+    <dimen name="activity_vertical_margin">20dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="product_title_text">16dp</dimen>
+    <dimen name="product_cat_text">12dp</dimen>
+    <dimen name="product_price_text">14dp</dimen>
+    <dimen name="product_discount_text">15dp</dimen>
+</resources>

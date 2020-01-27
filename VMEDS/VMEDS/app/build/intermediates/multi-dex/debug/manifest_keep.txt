@@ -1,0 +1,3 @@
+# Referenced at C:\Users\dell\AndroidStudioProjects\VMEDS\app\build\intermediates\manifests\full\debug\AndroidManifest.xml:35
+-keep class com.VMEDS.android.VMEDS { <init>(...); }
+

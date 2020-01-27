@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "456188495846",
+    "project_id": "firebase-urgentdeal"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:456188495846:android:de4a0e6071ae0dd9",
+        "android_client_info": {
+          "package_name": "com.neegambazaar.android"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "456188495846-mhfsmd25397vtrdc6ubq4abaj3c2mt51.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.neegambazaar.android",
+            "certificate_hash": "2653ed1a37fabc2fc90c9607cdecb373fc4002d5"
+          }
+        },
+        {
+          "client_id": "456188495846-ql8gpqcl995gc1ne5he0eere733ttqnc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWCgGL0jP64AEIUFmT4HTWr87CY_KgWeo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 1
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

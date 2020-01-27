@@ -1,0 +1,138 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/dblue</item>
+        <item name="android:textColorPrimaryInverse">@color/dblue</item>
+        <item name="colorPrimaryDark">@color/dblue</item>
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="drawerArrowStyle">@style/WhiteDrawerIconStyle</item>
+        <item name="autoCompleteTextViewStyle">@style/myAutoCompleteTextViewStyle</item>
+        <item name="textAppearanceSearchResultTitle">@style/mySearchResult</item>
+        <item name="actionBarStyle">@style/Widget.AppTheme.ActionBar</item>
+        <item name="actionBarTheme">@style/ThemeOverlay.AppTheme.ActionBar</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppTheme.PopupMenu</item>
+        <item name="android:actionBarTabStyle">@color/white</item>
+        <item name="actionMenuTextColor">@color/white</item>
+    </style>
+
+    <style name="AppTheme2" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">#111111</item>
+        <item name="colorPrimaryDark">#111111</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+    <style name="AppTheme3" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/dblue</item>
+        <item name="colorPrimaryDark">@color/dblue</item>
+        <item name="colorAccent">@color/white</item>
+    </style>
+
+
+    <style name="CustomTextStyle" parent="@android:style/TextAppearance.Widget.TabWidget">
+        <item name="android:textSize">9sp</item>
+        <item name="android:textAllCaps">true</item>
+    </style>
+
+
+    <style name="TextAppearance.App.TextInputLayout" parent="@android:style/TextAppearance">
+        <item name="android:textColor">@color/dblue</item>
+        <item name="android:textColorHint">@color/lightgray</item>
+        <item name="hintTextAppearance">@color/lightgray</item>
+    </style>
+
+
+    <style name="AppTheme.NoActionBar" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">#95C12B</item>
+        <item name="drawerArrowStyle">@style/WhiteDrawerIconStyle</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar1">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Widget.AppTheme.ActionBar" parent="Widget.AppCompat.ActionBar.Solid">
+        <!-- action bar background - without android prefix -->
+        <item name="background">@color/white</item>
+        <!-- action bar elevation - without android prefix -->
+        <item name="elevation">4dp</item>
+    </style>
+
+    <style name="ThemeOverlay.AppTheme.ActionBar" parent="ThemeOverlay.AppCompat.Dark.ActionBar">
+        <!-- title text color -->
+        <item name="android:textColorPrimary">#00c5ff</item>
+        <!-- subtitle text color -->
+        <item name="android:textColorSecondary">@color/black</item>
+        <!-- action menu item text color -->
+        <item name="actionMenuTextColor">@color/black</item>
+        <!-- action menu item icon color -->
+        <item name="colorControlNormal">?android:textColorPrimary</item>
+    </style>
+
+    <style name="ThemeOverlay.AppTheme.PopupMenu" parent="ThemeOverlay.AppCompat.Dark">
+        <!-- popup menu background - NEVER "android:background" !!! in themes -->
+        <item name="android:colorBackground">@color/white</item>
+        <!-- popup menu item text color -->
+        <item name="android:textColorPrimary">#00c5ff</item>
+    </style>
+
+    <style name="Widget.Styled.ActionBar" parent="@style/Widget.AppCompat.Light.ActionBar">
+        <item name="titleTextStyle">@style/ActionBarTitleText</item>
+        <item name="subtitleTextStyle">@style/ActionBarSubTitleText</item>
+    </style>
+
+    <style name="MyTheme" parent="@android:style/Theme.Dialog">
+        <item name="android:alertDialogStyle">@style/CustomAlertDialogStyle</item>
+        <item name="android:textColorPrimary">#00c5ff</item>
+    </style>
+
+    <style name="CustomDialogAnimation">
+        <item name="android:windowEnterAnimation">@anim/fade_in</item>
+        <item name="android:windowExitAnimation">@anim/fade_out</item>
+    </style>
+
+    <style name="CustomAlertDialogStyle">
+        <item name="android:bottomBright">@color/white</item>
+        <item name="android:bottomDark">@color/white</item>
+        <item name="android:bottomMedium">@color/white</item>
+        <item name="android:centerBright">@color/white</item>
+        <item name="android:centerDark">@color/white</item>
+        <item name="android:centerMedium">@color/white</item>
+        <item name="android:fullBright">@color/white</item>
+        <item name="android:fullDark">@color/white</item>
+        <item name="android:topBright">@color/white</item>
+        <item name="android:topDark">@color/white</item>
+    </style>
+
+    <style name="ActionBarTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textColor">#00c5ff</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="ActionBarSubTitleText" parent="@style/TextAppearance.AppCompat.Widget.ActionBar.Subtitle">
+        <item name="android:textColor">#00c5ff</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+
+    <style name="WhiteDrawerIconStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">#ffffff</item>
+    </style>
+
+    <style name="myAutoCompleteTextViewStyle" parent="Widget.AppCompat.Light.AutoCompleteTextView">
+        <item name="android:popupBackground">#EEE</item>
+        <item name="android:colorFocusedHighlight">#00c5ff</item>
+    </style>
+
+    <style name="mySearchResult" parent="TextAppearance.AppCompat.SearchResult.Title">
+        <item name="android:textColor">#FFF</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

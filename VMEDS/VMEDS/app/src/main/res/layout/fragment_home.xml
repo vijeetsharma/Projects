@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.VMEDS.android.HomeFragment">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="260dp"
+                android:fitsSystemWindows="true">
+
+                <com.wang.avi.AVLoadingIndicatorView
+                    android:id="@+id/loadingAvi"
+                    style="@style/AVLoadingIndicatorView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:layout_centerInParent="true"
+                    android:layout_centerVertical="true"
+                    android:visibility="visible"
+                    app:indicatorColor="@color/colorPrimary"
+                    app:indicatorName="LineSpinFadeLoaderIndicator" />
+
+                <android.support.v4.view.ViewPager
+                    android:id="@+id/slider"
+                    android:layout_width="match_parent"
+                    android:layout_height="240dp"
+                    android:layout_marginBottom="10dp" />
+
+                <RelativeLayout
+                    android:id="@+id/viewPagerIndicator"
+                    android:layout_width="match_parent"
+                    android:layout_height="55dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center">
+
+                    <LinearLayout
+                        android:id="@+id/viewPagerCountDots"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center"
+                        android:orientation="horizontal" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/f5tv19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Featured Product"
+                android:textColor="@color/colorPrimary"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dcdcdc"
+                android:paddingTop="5dp"
+                android:visibility="gone" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pagerPopularProducts"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/f5tv20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:text="New Product"
+                android:textColor="@color/colorPrimary"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dcdcdc"
+                android:paddingTop="5dp"
+                android:visibility="gone" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pagerNewProducts"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/f5tv21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="10dp"
+                android:text="Best Selling Product"
+                android:textColor="@color/colorPrimary"
+                android:visibility="gone" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#dcdcdc"
+                android:paddingTop="5dp"
+                android:visibility="gone" />
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/pagerBestSellingProducts"
+                android:layout_width="match_parent"
+                android:layout_height="280dp"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="5dp"
+                android:visibility="gone" />
+
+
+            <TextView
+                android:id="@+id/txtViewAllProducts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right"
+                android:layout_margin="20dp"
+                android:gravity="right"
+                android:text="View All Products"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:visibility="gone" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ripplebk">
+
+                <android.support.v7.widget.AppCompatButton
+                    android:id="@+id/upload"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="24dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="14dp"
+                    android:background="@drawable/mybutton"
+                    android:drawableRight="@drawable/ic_file_upload_white_24dp"
+                    android:padding="12dp"
+                    android:text="Upload Prescriptions"
+                    android:textAppearance="@style/ActionBarTitleText"
+                    android:textColor="@color/white"
+                    android:textSize="15dp" />
+
+            </LinearLayout>
+
+
+            <TextView
+                android:id="@+id/tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:gravity="center_horizontal"
+                android:text="I am looking for ....."
+                android:textColor="#111111"
+                android:textSize="20dp" />
+
+            <GridView
+                android:id="@+id/gridViewCategories"
+                android:layout_width="match_parent"
+                android:layout_height="180dp"
+                android:layout_below="@+id/tv"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/white"
+                android:numColumns="1" />
+
+            <android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/card_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:elevation="10dp"
+                android:visibility="visible"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                app:cardCornerRadius="20dp"
+                card_view:cardBackgroundColor="@color/white"
+                card_view:cardElevation="5dp"
+                card_view:cardUseCompatPadding="true">
+
+                <RelativeLayout
+                    android:id="@+id/rpLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/ripplebk"
+                    android:padding="5dp">
+
+                    <!--<RelativeLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="50dp"-->
+                    <!--android:layout_gravity="center_horizontal"-->
+                    <!--android:gravity="center_horizontal">-->
+                    <!--</RelativeLayout>-->
+
+                    <TextView
+                        android:id="@+id/txtService"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:visibility="visible"
+                        android:gravity="center_horizontal|bottom"
+                        android:lines="1"
+                        android:text="Why VMEDS ?"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="20dp" />
+                    <ImageView
+                        android:id="@+id/plus"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:visibility="visible"
+                        android:src="@drawable/ic_add_circle_black_24dp"
+                        android:layout_toRightOf="@+id/txtService"
+                        android:layout_centerHorizontal="true"
+                        android:tint="@color/colorPrimary"
+                        android:layout_marginLeft="30dp" />
+
+                </RelativeLayout>
+            </android.support.v7.widget.CardView>
+            <ToggleButton
+                android:id="@+id/toggleButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textOff="Info"
+                android:visibility="gone"
+                android:textOn="Hide"></ToggleButton>
+
+            <LinearLayout
+                android:id="@+id/info_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:text="Why NeeaSoft ?"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+                    android:textColor="#111111" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Why NeeaSoft ?"
+                    android:textColor="#111111"
+
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Why NeeaSoft ?"
+                    android:textColor="#111111"
+
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Why NeeaSoft ?"
+                    android:textColor="#111111"
+
+                    android:textSize="20dp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Why NeeaSoft ?"
+                    android:textColor="#111111"
+
+                    android:textSize="20dp" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

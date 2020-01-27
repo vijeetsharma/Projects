@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/dblue"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@color/colorPrimary">
+
+
+        <ImageView
+            android:id="@+id/Custom_addcart"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/bag"
+            android:tint="@color/white"
+            android:tintMode="src_in" />
+
+        <TextView
+            android:id="@+id/textCount"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_alignRight="@+id/Custom_addcart"
+            android:layout_alignTop="@+id/Custom_addcart"
+            android:background="@drawable/badge_circle"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/dblue"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+
+        <ImageView
+            android:id="@+id/Custom_search"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center_vertical"
+            android:layout_marginRight="15dp"
+            android:layout_toLeftOf="@+id/Custom_addcart"
+            android:src="@drawable/search"
+            android:tint="@color/white"
+            android:tintMode="src_in" />
+
+
+        <TextView
+            android:id="@+id/Custom_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="left|center_vertical"
+            android:layout_toLeftOf="@+id/Custom_search"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:text="@string/app_name"
+            android:textColor="@color/white"
+            android:textSize="20dp" />
+
+
+    </RelativeLayout>
+</LinearLayout>
